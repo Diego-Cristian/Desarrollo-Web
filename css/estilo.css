@@ -1,0 +1,372 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Prism&display=swap');
+
+
+main{    
+    background-color: hsl(35, 84%, 88%);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 50px;
+    font-size: 1.6em;    
+}
+
+
+.santaana{
+    background-color: #e4bdbd;
+    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Tilt Prism', sans-serif; /*fuente del titulo*/
+}
+
+h1{
+    font-size: 3.5;
+    
+}
+
+h2{
+    font-size: 3.5;
+}
+
+h3{
+    font-size: 2em;
+}
+
+p{
+    font-size: 1.40rem;
+    text-align: center;    
+    height: 35px 25px ;
+}
+
+/*primer pagina*/
+
+.navbar{
+    list-style: none;
+    display: flex;
+    padding: 10px;
+    font-family: 'Montserrat', sans-serif;    
+}
+
+.navbar a{
+    color: #000000;
+    text-decoration: none;
+    padding: 0.1rem;
+}
+
+.navbar a:hover{
+    background-color: hsl(0, 73%, 68%) ;
+    color: #4a9acf;
+    border-radius: 20px;    
+}
+
+/*pagina 1 inicio*/
+
+button{
+    margin: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2px 1.30px ;
+    border-radius: 30px ;
+    border: 6px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(5, 5, 5, 0.5);
+    color: rgb(23, 133, 32);
+    background-color: rgb(220, 187, 250);
+}
+
+button:hover{
+    background-color: #151318;
+}
+
+.portada1{    
+    background-color: rgb(176, 255, 183);
+    margin-top: 0 10px;
+    text-align: center;
+    justify-content: center;
+}
+
+.frutos{
+    display: flex;
+    justify-content: center;
+}
+
+.carta{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    text-align: center;    
+}
+
+.carta1{
+    border-radius: 30px;
+    margin: 0 50px;
+    background-color: rgb(209, 23, 23);
+}
+
+.carta2{
+    border-radius: 30px;
+    margin: 0 50px;
+    background-color: rgb(176, 92, 255);
+}
+
+.carta3{
+    border-radius: 30px;
+    margin: 0 50px;
+    background-color: rgb(240, 127, 193);
+}
+
+.certificaciones{
+    text-align: center;
+}
+
+.logos{
+    text-align: center;
+    display: flex;    
+    justify-content:space-around;
+}
+
+.mensaje{    
+    text-align: center;
+    display: block;
+}
+
+.mensaje p{
+    padding-top: 50px;
+}
+
+.arriba{
+    text-align: center;
+}
+
+    
+    /*pagina 2 nosotros*/
+
+
+.nosotros{
+    background-color: rgb(176, 255, 183);
+    text-align: center;        
+}
+
+.nos{
+    text-align: center;
+    background-color: rgb(176, 255, 183);
+}
+
+.historia{
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid black 0.1rem;
+    border-radius: 30px;
+    text-align: center;
+    background-color: #fdcc9e;
+    justify-content: center;
+}
+
+.misiones{
+    font-size: 1rem;
+    font-weight: bold;
+    border: solid black 0.1rem ;
+    display: flex;
+    border-radius: 30px;
+    margin: 0 50px;
+    text-align: center;
+    background-color: #fdcc9e;
+    justify-content: center;
+}
+
+.valores{
+    text-align: center;
+}
+
+.futuro2{
+    font-size: 1rem;
+    font-weight: bold;    
+    display: flex;
+    border: solid rgb(0, 0, 0) 0.1rem;
+    border-radius: 800px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #fdcc9e;
+    justify-content: center;
+    width: 100rem;    
+}
+
+.integridad{
+    flex-direction: row;
+    width: 200px;
+    margin: 30px;
+    text-align: center;
+    border: solid black 0.1rem;
+}
+
+
+.trabajo{
+    width: 200px;
+    margin: 30px;
+    border: solid black 0.1rem;
+}
+
+.resolucion{
+    width: 200px;    
+    margin: 30px;
+    border: solid black 0.1rem;
+}
+
+.pasion{
+    width: 200px;
+    margin: 30px;
+    border: solid black 0.1rem;
+}
+
+.calidad{
+    margin: 30px;
+    width: 200px;
+    border: solid black 0.1rem;
+}
+
+.oficina{
+    text-align: center;
+}
+
+.podemos{
+    text-align: center;
+    background-color: #18a023
+}
+
+.fururo{
+    background-color: rgb(245, 250, 255);
+}
+
+.futuro2{
+    background-color: #a4f5aa;
+}
+
+
+    /*pagina 3 establecimientos*/
+
+
+.establecimientos{    
+    text-align: center;
+    background-color: rgb(176, 255, 183);
+    align-items: center;
+}
+
+.finca1{
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+
+.finca2{     
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+
+
+.finca3{
+    font-size: 1rem;
+    font-weight: bold;
+    justify-content: center;
+    display: flex;
+    text-align: center;
+    gap: 20px;
+}
+
+
+    /*pagina 4 productos*/
+
+
+.productos{
+    justify-content: center;        
+    text-align: center;
+    background-color: rgb(176, 255, 183);
+    gap: 20px;
+}
+
+.congelados{
+    font-size: 1rem;
+    font-weight: bold;
+    text-align: center;
+    gap: 20px;    
+}
+
+.variedades{
+    gap: 20px;
+    background-color: rgb(148, 255, 255);
+    height: 30rem;
+    width: 47rem;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    display: flex;
+    margin: auto;
+    font-size: 1.6rem;
+    font-weight: bold;   
+    border: 10px solid rgba(0, 0, 0, 0.5);
+    box-shadow: 2px 2px 10px rgba(5, 5, 5, 0.5);
+    color: rgb(23, 32, 32);    
+}
+
+.frutillas{
+    align-content: center;    
+}
+
+.arandanos{
+    align-content: center;   
+}
+
+.moras{   
+    margin: 0 10px;
+    align-content: center;
+}
+
+    /*pagina 5 contactos*/
+
+
+.contac{
+    text-align: center;
+    background-color: rgb(176, 255, 183);
+    margin: 0 auto;
+}
+
+.formulario{  
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+
+    /*footer con redes*/
+
+footer section{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-evenly;    
+}
+
+.redes{
+    background-color: hwb(266 31% 18% / 0.527);
+    width: 100%;
+    height: 100px;
+}
+
+.redes img{
+    width: 60px;
+    height: 60px;
+    margin-top: 1rem;
+}
