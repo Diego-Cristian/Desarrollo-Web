@@ -21,8 +21,7 @@ header .logo{
 }
 
 .santaana{
-    background-color: #e4bdbd;
-    font-family: 'Montserrat', sans-serif; 
+    background-color: #e4bdbd;     
     font-family: 'Tilt Prism', sans-serif; /*fuente del titulo*/
 }
 
@@ -91,8 +90,7 @@ button:hover{
     justify-content: center;
 }
 
-.frutos{
-    display: flex;
+.frutos{    
     justify-content: center;
 }
 
@@ -140,10 +138,6 @@ button:hover{
     padding-top: 50px;
 }
 
-.arriba{
-    text-align: center;
-}
-
     
     /*pagina 2 nosotros*/
 
@@ -159,6 +153,7 @@ button:hover{
 }
 
 .historia{
+    display: flex;
     font-size: 1rem;
     font-weight: bold;
     border: solid black 0.1rem;
@@ -184,20 +179,6 @@ button:hover{
     text-align: center;
 }
 
-.podemos{
-    text-align: center;
-    background-color: #18a023
-}
-
-.fururo{
-    background-color: rgb(245, 250, 255);
-}
-
-.futuro2{
-    background-color: #a4f5aa;
-}
-
-
     /*pagina 3 establecimientos*/
 
 
@@ -210,8 +191,7 @@ button:hover{
 .finca1{
     font-size: 1rem;
     font-weight: bold;
-    justify-content: center;
-    display: flex;
+    justify-content: center;    
     text-align: center;
     gap: 20px;
 }
@@ -219,8 +199,7 @@ button:hover{
 .finca2{     
     font-size: 1rem;
     font-weight: bold;
-    justify-content: center;
-    display: flex;
+    justify-content: center;    
     text-align: center;
     gap: 20px;
 }
@@ -228,8 +207,7 @@ button:hover{
 .finca3{
     font-size: 1rem;
     font-weight: bold;
-    justify-content: center;
-    display: flex;
+    justify-content: center;    
     text-align: center;
     gap: 20px;
 }
@@ -258,8 +236,7 @@ button:hover{
     height: 30rem;
     width: 47rem;
     background-position: center;
-    text-align: center;
-    align-items: center;
+    text-align: center;    
     align-content: center;
     display: flex;
     margin: auto;
@@ -298,7 +275,6 @@ button:hover{
     text-align: center;
 }
 
-
     /*footer con redes*/
 
 footer section{
@@ -322,7 +298,7 @@ footer section{
 /*mediaquerries*/
 
 @media screen and (min-height: 600px){
-
-
+    
+    
 }       
 
