@@ -4,6 +4,8 @@
     box-sizing: border-box;
 }
 
+/*Fuentes*/
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Prism&display=swap');
 
 
@@ -17,7 +19,6 @@ header .logo{
     padding: 25px 50px;
     font-size: 1.6em;    
 }
-
 
 .santaana{
     background-color: #e4bdbd;
@@ -179,56 +180,6 @@ button:hover{
     justify-content: center;
 }
 
-.valores{
-    text-align: center;
-}
-
-.futuro2{
-    font-size: 1rem;
-    font-weight: bold;    
-    display: flex;
-    border: solid rgb(0, 0, 0) 0.1rem;
-    border-radius: 800px;
-    margin: 0 auto;
-    text-align: center;
-    background-color: #fdcc9e;
-    justify-content: center;
-    width: 100rem;    
-}
-
-.integridad{
-    flex-direction: row;
-    width: 200px;
-    margin: 30px;
-    text-align: center;
-    border: solid black 0.1rem;
-}
-
-
-.trabajo{
-    width: 200px;
-    margin: 30px;
-    border: solid black 0.1rem;
-}
-
-.resolucion{
-    width: 200px;    
-    margin: 30px;
-    border: solid black 0.1rem;
-}
-
-.pasion{
-    width: 200px;
-    margin: 30px;
-    border: solid black 0.1rem;
-}
-
-.calidad{
-    margin: 30px;
-    width: 200px;
-    border: solid black 0.1rem;
-}
-
 .oficina{
     text-align: center;
 }
@@ -265,7 +216,6 @@ button:hover{
     gap: 20px;
 }
 
-
 .finca2{     
     font-size: 1rem;
     font-weight: bold;
@@ -274,8 +224,6 @@ button:hover{
     text-align: center;
     gap: 20px;
 }
-
-
 
 .finca3{
     font-size: 1rem;
@@ -370,3 +318,11 @@ footer section{
     height: 60px;
     margin-top: 1rem;
 }
+
+/*mediaquerries*/
+
+@media screen and (min-height: 600px){
+
+
+}       
+
