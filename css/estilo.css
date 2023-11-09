@@ -211,8 +211,7 @@ button:hover{
     font-size: 1.6rem;
     font-weight: bold;
     gap: 80px;
-    height: auto;
-    width: auto;    
+    
 }
 
 .frutillas{
@@ -227,6 +226,7 @@ button:hover{
 .moras{   
     text-align: center;
 }
+
 
     /*pagina 5 contactos*/
 
