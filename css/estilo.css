@@ -10,14 +10,7 @@
 
 
 main{    
-    background-color: hsl(35, 84%, 88%);
-    
-}
-
-header .logo{
-    margin: 0;
-    padding: 25px 50px;
-    font-size: 1.6em;    
+    background-color: rgb(250, 229, 199);    
 }
 
 .santaana{
@@ -261,7 +254,21 @@ footer section{
 
 /*mediaquerries*/
 
-@media screen and (min-height: 600px){
-        
+@media screen and (min-width: 600px){
+        main{            
+            /*background-color: rgb(146, 146, 255);*/ 
+            /*el color estaria invertido? esta main con un color arriba, pero se estaria aclarando que es a partir de los 600px aca no?*/
+        }
+        .frutos{
+            flex-direction: column;/*No me estaria funcionando las cartas de inicio un ningun @mediaquerries*/
+        }
 }       
 
+@media screen and (min-width: 768){
+    body{
+        background-color: aquamarine;
+    }
+    .carta{        
+        flex-direction: column;        
+        text-align: center;
+}
