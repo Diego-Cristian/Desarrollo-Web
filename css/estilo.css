@@ -44,11 +44,9 @@ p{
     height: 35px 25px ;
 }
 
-/*primer pagina*/
 
-.miestilo{
-    list-style: none;
-    display: flex;
+.miestilo{             /* mi estilo de la barra de nav */
+    list-style: none;    
     padding: 10px;
     font-family: 'Montserrat', sans-serif;    
 }
@@ -59,9 +57,10 @@ p{
 }
 
 .miestilo a:hover{
-    background-color: red ;    
-    border-radius: 20px;    
+    background-color: rgb(217, 10, 10);    
 }
+
+/*Primer pagina,inicio*/
 
 button{
     margin: 50px;
@@ -223,19 +222,22 @@ button:hover{
     margin: 0 auto;
 }
 
-.formulario{  
-    display: flex;
+.formulario{
+    display: flex;    
     justify-content: center;
-    text-align: center;
-    flex-direction: row;
+    text-align: center;    
 }
-.datos-contacto{
-    display: flex;
-    
+
+.mapa{    
+    width: 470px ;    
+    height: 250px ;        
 }
-.mapa{
-    font-display: auto;
+
+.mapamundi{
+    height: 550px;
+    width: 600px;
 }
+
 
     /*footer con redes*/
 
