@@ -46,21 +46,20 @@ p{
 
 /*primer pagina*/
 
-.navbar{
+.miestilo{
     list-style: none;
     display: flex;
     padding: 10px;
     font-family: 'Montserrat', sans-serif;    
 }
 
-.navbar a{    
+.miestilo a{    
     text-decoration: none;
     padding: 0.1rem;
 }
 
-.navbar a:hover{
-    background-color: hsl(0, 97%, 53%) ;
-    color: #17a0fb;
+.miestilo a:hover{
+    background-color: red ;    
     border-radius: 20px;    
 }
 
@@ -87,8 +86,8 @@ button:hover{
     justify-content: center;
 }
 
-.frutos{    
-    justify-content: center;
+.frutos{  
+    justify-content:space-around;
 }
 
 .carta{
@@ -101,7 +100,11 @@ button:hover{
 .carta1{
     border-radius: 30px;
     margin: 0 50px;
-    background-color: rgb(209, 23, 23);
+    background-color: rgb(209, 23, 23);    
+}
+
+.carta1:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
 }
 
 .carta2{
@@ -110,10 +113,18 @@ button:hover{
     background-color: rgb(176, 92, 255);
 }
 
+.carta2:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
+}
+
 .carta3{
     border-radius: 30px;
     margin: 0 50px;
     background-color: rgb(240, 127, 193);
+}
+
+.carta3:hover{
+    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
 }
 
 .certificaciones{
@@ -190,7 +201,7 @@ button:hover{
     text-align: center;
     background-color: rgb(176, 255, 183);
     gap: 20px;
-    
+        
 }
 
 .congelados{
@@ -200,31 +211,6 @@ button:hover{
     gap: 20px;  
     height: auto;
     width: auto;        
-}
-
-.variedades{
-    background-color: #fcaeac;
-    max-width: 1400px;
-    flex-direction: column;
-    display:flex ;
-    margin: auto ;
-    font-size: 1.6rem;
-    font-weight: bold;
-    gap: 80px;
-    
-}
-
-.frutillas{
-    text-align: center;
-}
-
-
-.arandanos{
-    text-align: center;
-}
-
-.moras{   
-    text-align: center;
 }
 
 
@@ -242,6 +228,13 @@ button:hover{
     justify-content: center;
     text-align: center;
     flex-direction: row;
+}
+.datos-contacto{
+    display: flex;
+    
+}
+.mapa{
+    font-display: auto;
 }
 
     /*footer con redes*/
