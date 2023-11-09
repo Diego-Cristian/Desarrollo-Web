@@ -192,8 +192,7 @@ button:hover{
     justify-content: center;        
     text-align: center;
     background-color: rgb(176, 255, 183);
-    gap: 20px;
-        
+    gap: 20px;        
 }
 
 .congelados{
@@ -201,10 +200,19 @@ button:hover{
     font-weight: bold;
     text-align: center;
     gap: 20px;  
-    height: auto;
+    height: 180px;
     width: auto;        
 }
 
+/*estilos de bustrap*/
+
+.estilopropio{
+    text-align: center;
+    justify-content: center;
+}
+.estilo{
+    background-color: rgb(255, 223, 149);
+}
 
     /*pagina 5 contactos*/
 
@@ -230,7 +238,6 @@ button:hover{
     height: 550px;
     width: 600px;
 }
-
 
     /*footer con redes*/
 
@@ -263,7 +270,7 @@ footer section{
             flex-direction: column;/*No me estaria funcionando las cartas de inicio un ningun @mediaquerries*/
         }
         .formilario{
-            flex-direction: column;/*el mapa con el formulario tampoco quiere funcionar,que estoy haciendo mal?*/
+            flex-direction: column;/*el mapa con el formulario no se me pasa a columna,que estoy haciendo mal?*/
             justify-content: center;
         }
 }       
