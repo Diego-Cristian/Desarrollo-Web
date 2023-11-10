@@ -200,14 +200,10 @@ button:hover{
     padding-top: 25px;        
 }
 
-.congelados{
-    font-size: 1rem;
+.congelados{    
     font-weight: bold;
     text-align: center;
-    gap: 20px;  
-    height: 180px;
-    width: auto;        
-}
+    }
 
 /*estilos de bustrap*/
 
