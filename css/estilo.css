@@ -258,24 +258,21 @@ footer section{
 @media screen and (min-width: 600px){
     .formulario{
         display: flex;
-    }            
-            /*background-color: rgb(146, 146, 255);*/ 
-            /*el color estaria invertido? esta main con un color arriba, pero se estaria aclarando que es a partir de los 600px aca no?*/
-        }
-        .frutos{
-            flex-direction: column;/*No me estaria funcionando las cartas de inicio un ningun @mediaquerries*/
-        }
-        .formilario{
-            flex-direction: column;/*el mapa con el formulario no se me pasa a columna,que estoy haciendo mal?*/
-            justify-content: center;
-        }
-}       
+    }    
+    body{
+        background-color: black;
+    }        
+
+}
+    
+        
 
 @media screen and (min-width: 768){
     body{
         background-color: aquamarine;
     }
-    .carta{        
+    .frutos{        
         flex-direction: column;        
         text-align: center;
+    }
 }
