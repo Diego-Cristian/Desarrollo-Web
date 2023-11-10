@@ -224,19 +224,13 @@ button:hover{
     margin: 0 auto;
 }
 
-.formulario{
-    display: flex;    
+.formulario{        
     justify-content: center;
 }
 
 .mapa{    
     width: 470px ;    
     height: 250px ;        
-}
-
-.mapamundi{
-    height: 550px;
-    width: 600px;
 }
 
     /*footer con redes*/
@@ -262,7 +256,9 @@ footer section{
 /*mediaquerries*/
 
 @media screen and (min-width: 600px){
-        main{            
+    .formulario{
+        display: flex;
+    }            
             /*background-color: rgb(146, 146, 255);*/ 
             /*el color estaria invertido? esta main con un color arriba, pero se estaria aclarando que es a partir de los 600px aca no?*/
         }
