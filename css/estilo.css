@@ -38,7 +38,8 @@ p{
 }
 
 
-.miestilo{             /* mi estilo de la barra de nav */
+.miestilo{ 
+    background-color: rgb(195, 131, 255); /*cambie el color del nav*/           /* mi estilo de la barra de nav */
     list-style: none;    
     padding: 10px;
     font-family: 'Montserrat', sans-serif;    
@@ -226,7 +227,6 @@ button:hover{
 .formulario{
     display: flex;    
     justify-content: center;
-    text-align: center;    
 }
 
 .mapa{    
