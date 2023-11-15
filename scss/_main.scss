@@ -25,7 +25,7 @@ main{
         height: 35px 25px ;        
     }
     .portada1{    
-        background-color: $fondo1;
+        background-color: $fondo2;
         margin-top: 0 10px;
         text-align: center;
         justify-content: center;        
@@ -111,7 +111,7 @@ main{
         }
     }    
     .nosotros{
-        background-color: $fondo1;
+        background-color: $fondo2;
         text-align: center;
         padding-top: 25px;        
     } 
@@ -136,14 +136,14 @@ main{
     }
     .establecimientos{    
         text-align: center;
-        background-color: $fondo1;
+        background-color: $fondo2;
         align-items: center;
         padding-top: 25px;
     }    
     .productos{
         justify-content: center;        
         text-align: center;
-        background-color: $fondo1;
+        background-color: $fondo2;
         gap: 20px;
         padding-top: 25px;        
     }
@@ -172,7 +172,7 @@ main{
     }
     .contac{
         text-align: center;
-        background-color: $fondo1;
+        background-color: $fondo2;
         margin: 0 auto;        
     }
     .formulario{        
