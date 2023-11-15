@@ -1,0 +1,17 @@
+header{
+    .miestilo{        
+        background-color: rgb(191, 123, 255); 
+        list-style: none;    
+        padding: 10px;
+        font-family: 'Montserrat', sans-serif;
+        a{
+            text-decoration: none;
+            padding: 0.1rem;
+            &:hover{
+                background-color:rgb(80, 80, 80);    
+            }
+        }
+        
+        
+        } 
+} 

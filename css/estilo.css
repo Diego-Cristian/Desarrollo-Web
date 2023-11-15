@@ -1,272 +1,206 @@
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
+@import url("https://fonts.googleapis.com/css2? family= Montserrat & family= Tilt+Prism & family= Vast+Shadow & display=swap");
 /*Fuentes*/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
 
-@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Tilt+Prism&display=swap');
-
-
-main{    
-    background-color: rgb(250, 229, 199);    
-}
-
-.santaana{
-    background-color: #e4bdbd;     
-    font-family: 'Tilt Prism', sans-serif; /*fuente del titulo*/
-}
-
-h1{
-    font-size: 3.5;
-    
-}
-
-h2{
-    font-size: 3.5;
-}
-
-h3{
-    font-size: 2em;
-}
-
-p{
-    font-size: 1.40rem;
-    text-align: center;    
-    height: 35px 25px ;
-}
-
-
-.miestilo{ 
-    background-color: rgb(195, 131, 255); /*cambie el color del nav*/           /* mi estilo de la barra de nav */
-    list-style: none;    
-    padding: 10px;
-    font-family: 'Montserrat', sans-serif;    
-}
-
-.miestilo a{    
-    text-decoration: none;
-    padding: 0.1rem;
-}
-
-.miestilo a:hover{
-    background-color: rgb(80, 80, 80);    
-}
-
-/*Primer pagina,inicio*/
-
-button{
-    margin: 50px;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 2px 1.30px ;
-    border-radius: 30px ;
-    border: 6px solid rgb(254, 51, 51);
-    box-shadow: 2px 2px 10px rgba(5, 5, 5, 0.5);
-    color: rgb(23, 133, 32);
-    background-color: rgb(220, 187, 250);
-}
-
-button:hover{
-    background-color: #151318;
-}
-
-.portada1{    
-    background-color: rgb(176, 255, 183);
-    margin-top: 0 10px;
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
+  footer .redes {
     text-align: center;
-    justify-content: center;
-    
-}
-
-.frutos{  
-    justify-content:space-around;
-}
-
-.carta{
-    margin-top: 10px;
-    display: flex;
-    justify-content: center;
-    text-align: center;    
-}
-
-.carta1{
-    border-radius: 30px;
-    margin: 0 50px;
-    background-color: rgb(209, 23, 23);    
-}
-
-.carta1:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-}
-
-.carta2{
-    border-radius: 30px;
-    margin: 0 50px;
-    background-color: rgb(176, 92, 255);
-}
-
-.carta2:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-}
-
-.carta3{
-    border-radius: 30px;
-    margin: 0 50px;
-    background-color: rgb(240, 127, 193);
-}
-
-.carta3:hover{
-    box-shadow: 5px 5px 20px rgba(0,0,0,0.2);
-}
-
-.certificaciones{
-    text-align: center;
-}
-
-.logos{
-    text-align: center;
-    display: flex;    
-    justify-content:space-around;
-}
-
-.mensaje{    
-    text-align: center;
-    display: block;
-}
-
-.mensaje p{
-    padding-top: 50px;
-}
-
-    
-    /*pagina 2 nosotros*/
-
-
-.nosotros{
-    background-color: rgb(176, 255, 183);
-    text-align: center;
-    padding-top: 25px;        
-}
-
-.nos{
-    text-align: center;
-    background-color: rgb(176, 255, 183);
-}
-
-.historia{
-    display: flex;
-    font-size: 1rem;
-    font-weight: bold;    
-    text-align: center;    
-    justify-content: center;
-    margin: 100px;
-}
-
-.misiones{
-    font-size: 1rem;
-    font-weight: bold;    
-    display: flex;    
-    margin: 0 auto;
-    text-align: center;    
-    justify-content: center;
-    
-}
-
-.oficina{
-    text-align: center;
-}
-
-    /*pagina 3 establecimientos*/
-
-
-.establecimientos{    
-    text-align: center;
-    background-color: rgb(176, 255, 183);
-    align-items: center;
-    padding-top: 25px;
-}
-
-
-    /*pagina 4 productos*/
-
-
-.productos{
-    justify-content: center;        
-    text-align: center;
-    background-color: rgb(176, 255, 183);
-    gap: 20px;
-    padding-top: 25px;        
-}
-
-.congelados{    
-    font-weight: bold;
-    text-align: center;
-    }
-
-/*estilos de bustrap*/
-
-.estilopropio{
-    text-align: center;
-    justify-content: center;
-}
-.estilo{
-    background-color: rgb(255, 223, 149);
-}
-
-    /*pagina 5 contactos*/
-
-
-.contac{
-    text-align: center;
-    background-color: rgb(176, 255, 183);
-    margin: 0 auto;
-    padding-top: 25px;
-}
-
-.formulario{        
-    justify-content: center;
-    display: flex;
-}
-
-.mapa{    
-    width: 470px ;    
-    height: 250px ;
-}
-
-    /*footer con redes*/
-
-footer section{
-    display: flex;
-    flex-direction: row;
-    justify-content:space-evenly;    
-}
-
-.redes{
-    background-color: rgba(206, 176, 242, 0.92);
+    background-color: #bf7bff;
     width: 100%;
-    height: 100px;
-}
-
-.redes img{
+    height: 100px; }
+  footer .redes img {
     width: 60px;
     height: 60px;
     margin-top: 1rem;
-}
+    margin: 15px 10px; }
 
-/*mediaquerries*/
+header .miestilo {
+  background-color: #bf7bff;
+  list-style: none;
+  padding: 10px;
+  font-family: 'Montserrat', sans-serif; }
+  header .miestilo a {
+    text-decoration: none;
+    padding: 0.1rem; }
+    header .miestilo a:hover {
+      background-color: #505050; }
 
-@media screen and (max-width: 768px){
-    .formulario{
-        flex-direction: column;
-        text-align: center;        
-    }    
-    body{
-        background-color: black;
-    }
-    .carta{        
-        flex-direction: column;
-    }
-    
-}
+main {
+  background-color: #ffd79e;
+  /*$fondo*/ }
+  main h1 {
+    font-size: 3.5; }
+  main h2 {
+    font-size: 3.5; }
+  main h3 {
+    font-size: 2em; }
+  main p {
+    font-size: 1.40rem;
+    text-align: center;
+    height: 35px 25px; }
+  main button {
+    margin: 50px;
+    font-size: 2rem;
+    font-weight: bold;
+    padding: 2px 1.30px;
+    border-radius: 30px;
+    border: 6px solid #fe3333;
+    box-shadow: 2px 2px 10px 2px #544e5a;
+    color: #178520;
+    background-color: #dcbbfa; }
+    main button:hover {
+      background-color: #141217; }
+  main .portada1 {
+    background-color: #b0ffb7;
+    margin-top: 0 10px;
+    text-align: center;
+    justify-content: center; }
+
+.santaana {
+  background-color: #e4bebe;
+  font-family: 'Tilt Prism', sans-serif; }
+  .santaana:hover {
+    transform: scale(2, 2);
+    /*animacion al tutulo*/ }
+
+.frutos {
+  justify-content: space-around;
+  display: flex;
+  justify-content: center;
+  text-align: center; }
+  .frutos .carta {
+    margin: 120px 50px;
+    margin-top: 70px;
+    display: flex;
+    justify-content: center;
+    text-align: center; }
+    .frutos .carta .carta1 {
+      /*@extend .carta; aca podrian ir tres cartas @extend */
+      border-radius: 300px;
+      margin: 0 50px;
+      background-color: #c63030; }
+      .frutos .carta .carta1:hover {
+        box-shadow: 5px 5px 20px #141217; }
+    .frutos .carta .carta2 {
+      /*@extend .carta; aca podrian ir tres cartas @extend */
+      border-radius: 300px;
+      margin: 0 50px;
+      background-color: #bf7bff; }
+      .frutos .carta .carta2:hover {
+        box-shadow: 5px 5px 20px #141217; }
+    .frutos .carta .carta3 {
+      /*@extend .carta; aca podrian ir tres cartas @extend */
+      border-radius: 300px;
+      margin: 0 50px;
+      background-color: #f47fc3; }
+      .frutos .carta .carta3:hover {
+        box-shadow: 5px 5px 20px #141217; }
+
+.certificaciones {
+  margin: 120px 50px;
+  text-align: center; }
+  .certificaciones .logos {
+    text-align: center;
+    display: flex;
+    justify-content: space-around; }
+
+.mensaje {
+  text-align: center;
+  display: block; }
+  .mensaje .envianos {
+    padding-top: 50px;
+    font-family: 'Vast Shadow', serif; }
+
+.nosotros {
+  background-color: #b0ffb7;
+  text-align: center;
+  padding-top: 25px; }
+
+.historia {
+  display: flex;
+  font-size: 1rem;
+  font-weight: bold;
+  text-align: center;
+  justify-content: center;
+  margin: 100px; }
+
+.misiones {
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  margin: 100px;
+  text-align: center;
+  justify-content: center; }
+
+.oficina {
+  text-align: center; }
+
+.establecimientos {
+  text-align: center;
+  background-color: #b0ffb7;
+  align-items: center;
+  padding-top: 25px; }
+
+.productos {
+  justify-content: center;
+  text-align: center;
+  background-color: #b0ffb7;
+  gap: 20px;
+  padding-top: 25px; }
+
+.congelados {
+  margin: 20px 50px;
+  font-weight: bold;
+  text-align: center; }
+
+.estilopropio {
+  margin: 50px 50px;
+  text-align: center;
+  justify-content: center; }
+  .estilopropio .estilo1 {
+    margin: 0 50px;
+    border-radius: 20px;
+    background-color: #c63030; }
+  .estilopropio .estilo2 {
+    background-color: #bf7bff;
+    margin: 0 50px; }
+  .estilopropio .estilo3 {
+    margin: 0 50px;
+    background-color: #f47fc3; }
+
+.contac {
+  text-align: center;
+  background-color: #b0ffb7;
+  margin: 0 auto; }
+
+.formulario {
+  justify-content: center;
+  display: flex;
+  margin-top: 20px; }
+  .formulario .form {
+    width: 320px;
+    margin: 60px;
+    border-radius: 30px;
+    background-color: #bf7bff;
+    text-align: center;
+    font-size: 1.2rem;
+    font-weight: bold; }
+  .formulario .mapa {
+    margin: 80px; }
+
+@media screen and (max-width: 768px) {
+  .formulario {
+    flex-direction: column;
+    text-align: center; }
+  body {
+    background-color: black; }
+  .carta {
+    flex-direction: column; } }
+
+/*@import "variables"*/
