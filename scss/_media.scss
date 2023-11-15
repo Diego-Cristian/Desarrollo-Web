@@ -1,10 +1,12 @@
+$bordedelborde:rgb(5, 5, 5);
+
 @media screen and (max-width: 768px){
     .formulario{
         flex-direction: column;
         text-align: center;        
     }    
     body{
-        background-color: rgb(0, 0, 0);
+        background-color: $bordedelborde;
     }
     .carta{        
         flex-direction: column;

@@ -1,5 +1,15 @@
+$fondo1:rgb(255, 215, 158);
+$fondo2:rgb(176, 255, 183);
+$fondo3:rgb(228, 190, 190);
+$producto1:rgb(237, 61, 61);
+$producto2:rgb(191, 123, 255);
+$producto3:rgb(244, 127, 195);
+$fondoboton:rgb(220, 187, 250);
+$letraboton:rgb(23, 133, 32);
+$bordedelborde:rgb(5, 5, 5);
+
 main{
-    background-color: rgb(255, 215, 158);/*$fondo*/
+    background-color: $fondo1;/*$fondo*/
     h1{
         font-size: 3.5;        
     }    
@@ -7,36 +17,22 @@ main{
         font-size: 3.5;
     }    
     h3{
-        font-size: 2em;
+        font-size: 2rem;
     }    
     p{
         font-size: 1.40rem;
         text-align: center;    
         height: 35px 25px ;        
     }
-    button{
-        margin: 50px;
-        font-size: 2rem;
-        font-weight: bold;
-        padding: 2px 1.30px ;
-        border-radius: 30px ;
-        border: 6px solid rgb(254, 51, 51);
-        box-shadow: 2px 2px 10px 2px rgb(84, 78, 90);
-        color: rgb(23, 133, 32);
-        background-color: rgb(220, 187, 250);
-        &:hover{
-            background-color: rgb(20, 18, 23);
-        }
-    }
     .portada1{    
-        background-color: rgb(176, 255, 183);
+        background-color: $fondo1;
         margin-top: 0 10px;
         text-align: center;
         justify-content: center;        
         }                
     }
     .santaana{
-        background-color: rgb(228, 190, 190);   
+        background-color: $fondo3;   
         font-family: 'Tilt Prism', sans-serif;        
         &:hover{
             transform: scale(2,2);  /*animacion al tutulo*/
@@ -57,32 +53,45 @@ main{
                 /*@extend .carta; aca podrian ir tres cartas @extend */
                 border-radius: 300px;
                 margin: 0 50px;
-                background-color: rgb(198, 48, 48);
+                background-color: $producto1;
                 &:hover{
-                    box-shadow: 5px 5px 20px rgb(20, 18, 23);
+                    box-shadow: 5px 5px 20px $bordedelborde;
                 }                
             }
             .carta2{
                 /*@extend .carta; aca podrian ir tres cartas @extend */
                 border-radius: 300px;
                 margin: 0 50px;
-                background-color: rgb(191, 123, 255);
+                background-color: $producto2;
                 &:hover{
-                    box-shadow: 5px 5px 20px rgb(20, 18, 23);
+                    box-shadow: 5px 5px 20px $bordedelborde;
                 }
             }
             .carta3{
                 /*@extend .carta; aca podrian ir tres cartas @extend */
                 border-radius: 300px;
                 margin: 0 50px;
-                background-color: rgb(244, 127, 195);;
+                background-color: $producto3;
                 &:hover{
-                    box-shadow: 5px 5px 20px rgb(20, 18, 23);
+                    box-shadow: 5px 5px 20px $bordedelborde;
                 }
             }    
-        }
-        
+        }        
             
+    }
+    button{
+        margin: 50px;
+        font-size: 2rem;
+        font-weight: bold;
+        padding: 2px 1.30px ;
+        border-radius: 30px ;
+        border: 6px solid $producto1;
+        box-shadow: 2px 2px 10px 2px $bordedelborde;
+        color: $letraboton;
+        background-color: $fondoboton;
+        &:hover{
+            background-color: $bordedelborde;
+        }
     }
     .certificaciones{
         margin: 120px 50px;
@@ -102,7 +111,7 @@ main{
         }
     }    
     .nosotros{
-        background-color: rgb(176, 255, 183);
+        background-color: $fondo1;
         text-align: center;
         padding-top: 25px;        
     } 
@@ -127,14 +136,14 @@ main{
     }
     .establecimientos{    
         text-align: center;
-        background-color: rgb(176, 255, 183);
+        background-color: $fondo1;
         align-items: center;
         padding-top: 25px;
     }    
     .productos{
         justify-content: center;        
         text-align: center;
-        background-color: rgb(176, 255, 183);
+        background-color: $fondo1;
         gap: 20px;
         padding-top: 25px;        
     }
@@ -150,20 +159,20 @@ main{
         .estilo1{
             margin: 0 50px;
             border-radius: 20px;
-            background-color: rgb(198, 48, 48);
+            background-color: $producto1;
         }
         .estilo2{
-            background-color: rgb(191, 123, 255);
+            background-color: $producto2;
             margin: 0 50px;
         }
         .estilo3{
             margin: 0 50px;
-            background-color:rgb(244, 127, 195);
+            background-color:$producto3;
         }
     }
     .contac{
         text-align: center;
-        background-color: rgb(176, 255, 183);
+        background-color: $fondo1;
         margin: 0 auto;        
     }
     .formulario{        
@@ -174,14 +183,13 @@ main{
             width: 320px;            
             margin: 60px ;
             border-radius: 30px;
-            background-color: rgb(191, 123, 255);                                   
+            background-color: $producto2;                                   
             text-align: center;
             font-size: 1.2rem;
             font-weight: bold;            
         }
     .mapa{ 
-        margin: 80px;
-                
+        margin: 80px;                
     }    
 }
 

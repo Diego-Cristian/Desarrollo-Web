@@ -29,7 +29,7 @@ header .miestilo {
     text-decoration: none;
     padding: 0.1rem; }
     header .miestilo a:hover {
-      background-color: #505050; }
+      background-color: #050505; }
 
 main {
   background-color: #ffd79e;
@@ -39,25 +39,13 @@ main {
   main h2 {
     font-size: 3.5; }
   main h3 {
-    font-size: 2em; }
+    font-size: 2rem; }
   main p {
     font-size: 1.40rem;
     text-align: center;
     height: 35px 25px; }
-  main button {
-    margin: 50px;
-    font-size: 2rem;
-    font-weight: bold;
-    padding: 2px 1.30px;
-    border-radius: 30px;
-    border: 6px solid #fe3333;
-    box-shadow: 2px 2px 10px 2px #544e5a;
-    color: #178520;
-    background-color: #dcbbfa; }
-    main button:hover {
-      background-color: #141217; }
   main .portada1 {
-    background-color: #b0ffb7;
+    background-color: #ffd79e;
     margin-top: 0 10px;
     text-align: center;
     justify-content: center; }
@@ -84,23 +72,36 @@ main {
       /*@extend .carta; aca podrian ir tres cartas @extend */
       border-radius: 300px;
       margin: 0 50px;
-      background-color: #c63030; }
+      background-color: #ed3d3d; }
       .frutos .carta .carta1:hover {
-        box-shadow: 5px 5px 20px #141217; }
+        box-shadow: 5px 5px 20px #050505; }
     .frutos .carta .carta2 {
       /*@extend .carta; aca podrian ir tres cartas @extend */
       border-radius: 300px;
       margin: 0 50px;
       background-color: #bf7bff; }
       .frutos .carta .carta2:hover {
-        box-shadow: 5px 5px 20px #141217; }
+        box-shadow: 5px 5px 20px #050505; }
     .frutos .carta .carta3 {
       /*@extend .carta; aca podrian ir tres cartas @extend */
       border-radius: 300px;
       margin: 0 50px;
       background-color: #f47fc3; }
       .frutos .carta .carta3:hover {
-        box-shadow: 5px 5px 20px #141217; }
+        box-shadow: 5px 5px 20px #050505; }
+
+button {
+  margin: 50px;
+  font-size: 2rem;
+  font-weight: bold;
+  padding: 2px 1.30px;
+  border-radius: 30px;
+  border: 6px solid #ed3d3d;
+  box-shadow: 2px 2px 10px 2px #050505;
+  color: #178520;
+  background-color: #dcbbfa; }
+  button:hover {
+    background-color: #050505; }
 
 .certificaciones {
   margin: 120px 50px;
@@ -118,7 +119,7 @@ main {
     font-family: 'Vast Shadow', serif; }
 
 .nosotros {
-  background-color: #b0ffb7;
+  background-color: #ffd79e;
   text-align: center;
   padding-top: 25px; }
 
@@ -143,14 +144,14 @@ main {
 
 .establecimientos {
   text-align: center;
-  background-color: #b0ffb7;
+  background-color: #ffd79e;
   align-items: center;
   padding-top: 25px; }
 
 .productos {
   justify-content: center;
   text-align: center;
-  background-color: #b0ffb7;
+  background-color: #ffd79e;
   gap: 20px;
   padding-top: 25px; }
 
@@ -166,7 +167,7 @@ main {
   .estilopropio .estilo1 {
     margin: 0 50px;
     border-radius: 20px;
-    background-color: #c63030; }
+    background-color: #ed3d3d; }
   .estilopropio .estilo2 {
     background-color: #bf7bff;
     margin: 0 50px; }
@@ -176,7 +177,7 @@ main {
 
 .contac {
   text-align: center;
-  background-color: #b0ffb7;
+  background-color: #ffd79e;
   margin: 0 auto; }
 
 .formulario {
@@ -199,8 +200,6 @@ main {
     flex-direction: column;
     text-align: center; }
   body {
-    background-color: black; }
+    background-color: #050505; }
   .carta {
     flex-direction: column; } }
-
-/*@import "variables"*/
