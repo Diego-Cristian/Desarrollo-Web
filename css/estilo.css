@@ -165,14 +165,14 @@ button {
   text-align: center;
   justify-content: center; }
   .estilopropio .estilo1 {
-    margin: 0 50px;
+    margin: 0 auto;
     border-radius: 20px;
     background-color: #ed3d3d; }
   .estilopropio .estilo2 {
     background-color: #bf7bff;
-    margin: 0 50px; }
+    margin: 0 auto; }
   .estilopropio .estilo3 {
-    margin: 0 50px;
+    margin: 0 auto;
     background-color: #f47fc3; }
 
 .contac {

@@ -157,16 +157,16 @@ main{
         text-align: center;
         justify-content: center;
         .estilo1{
-            margin: 0 50px;
+            margin: 0 auto;
             border-radius: 20px;
             background-color: $producto1;
         }
         .estilo2{
             background-color: $producto2;
-            margin: 0 50px;
+            margin: 0 auto;
         }
         .estilo3{
-            margin: 0 50px;
+            margin: 0 auto;
             background-color:$producto3;
         }
     }
