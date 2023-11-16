@@ -11,6 +11,12 @@ $bordedelborde:rgb(5, 5, 5);
     .carta{        
         flex-direction: column;
     }
-    
+        
 }
 
+@media screen and (max-width: 320px){
+    .formulario{
+        flex-direction: column;
+
+    }            
+}

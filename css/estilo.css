@@ -45,6 +45,7 @@ main {
     text-align: center;
     height: 35px 25px; }
   main .portada1 {
+    /*html inicio*/
     background-color: #b0ffb7;
     margin-top: 0 10px;
     text-align: center;
@@ -55,7 +56,7 @@ main {
   font-family: 'Tilt Prism', sans-serif; }
   .santaana:hover {
     transform: scale(2, 2);
-    /*animacion al tutulo*/ }
+    /*transform de tutulo*/ }
 
 .frutos {
   justify-content: space-around;
@@ -119,6 +120,7 @@ button {
     font-family: 'Vast Shadow', serif; }
 
 .nosotros {
+  /*html establecimientos*/
   background-color: #b0ffb7;
   text-align: center;
   padding-top: 25px; }
@@ -143,12 +145,14 @@ button {
   text-align: center; }
 
 .establecimientos {
+  /*html establecimientos*/
   text-align: center;
   background-color: #b0ffb7;
   align-items: center;
   padding-top: 25px; }
 
 .productos {
+  /* html productos*/
   justify-content: center;
   text-align: center;
   background-color: #b0ffb7;
@@ -176,6 +180,7 @@ button {
     background-color: #f47fc3; }
 
 .contac {
+  /*aca html contactos*/
   text-align: center;
   background-color: #b0ffb7;
   margin: 0 auto; }
@@ -187,13 +192,13 @@ button {
   .formulario .form {
     width: 320px;
     margin: 60px;
-    border-radius: 30px;
+    border-radius: 10px;
     background-color: #bf7bff;
     text-align: center;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-weight: bold; }
   .formulario .mapa {
-    margin: 80px; }
+    margin: 60px; }
 
 @media screen and (max-width: 768px) {
   .formulario {
@@ -202,4 +207,8 @@ button {
   body {
     background-color: #050505; }
   .carta {
+    flex-direction: column; } }
+
+@media screen and (max-width: 320px) {
+  .formulario {
     flex-direction: column; } }

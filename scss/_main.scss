@@ -24,7 +24,7 @@ main{
         text-align: center;    
         height: 35px 25px ;        
     }
-    .portada1{    
+    .portada1{                                                        /*html inicio*/
         background-color: $fondo2;
         margin-top: 0 10px;
         text-align: center;
@@ -35,7 +35,7 @@ main{
         background-color: $fondo3;   
         font-family: 'Tilt Prism', sans-serif;        
         &:hover{
-            transform: scale(2,2);  /*animacion al tutulo*/
+            transform: scale(2,2);  /*transform de tutulo*/
         }
     }
     .frutos{  
@@ -110,7 +110,7 @@ main{
             font-family: 'Vast Shadow', serif;
         }
     }    
-    .nosotros{
+    .nosotros{                                          /*html establecimientos*/
         background-color: $fondo2;
         text-align: center;
         padding-top: 25px;        
@@ -134,13 +134,13 @@ main{
     .oficina{
         text-align: center;
     }
-    .establecimientos{    
+    .establecimientos{                         /*html establecimientos*/
         text-align: center;
         background-color: $fondo2;
         align-items: center;
         padding-top: 25px;
     }    
-    .productos{
+    .productos{                                     /* html productos*/
         justify-content: center;        
         text-align: center;
         background-color: $fondo2;
@@ -170,7 +170,7 @@ main{
             background-color:$producto3;
         }
     }
-    .contac{
+    .contac{                                 /*aca html contactos*/
         text-align: center;
         background-color: $fondo2;
         margin: 0 auto;        
@@ -182,14 +182,14 @@ main{
         .form{            
             width: 320px;            
             margin: 60px ;
-            border-radius: 30px;
+            border-radius: 10px;
             background-color: $producto2;                                   
             text-align: center;
-            font-size: 1.2rem;
+            font-size: 1.1rem;
             font-weight: bold;            
         }
     .mapa{ 
-        margin: 80px;                
+        margin: 60px;                
     }    
 }
 
