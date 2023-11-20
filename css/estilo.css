@@ -32,8 +32,7 @@ header .miestilo {
       background-color: #050505; }
 
 main {
-  background-color: #ffd79e;
-  /*$fondo*/ }
+  background-color: #ffd79e; }
   main h1 {
     font-size: 3.5; }
   main h2 {
@@ -52,11 +51,11 @@ main {
     justify-content: center; }
 
 .santaana {
+  /*transform de tutulo*/
   background-color: #e4bebe;
   font-family: 'Tilt Prism', sans-serif; }
   .santaana:hover {
-    transform: scale(2, 2);
-    /*transform de tutulo*/ }
+    transform: scale(2, 2); }
 
 .frutos {
   justify-content: space-around;
@@ -70,21 +69,21 @@ main {
     justify-content: center;
     text-align: center; }
     .frutos .carta .carta1 {
-      /*@extend .carta; aca podrian ir tres cartas @extend */
+      /*@extend .carta;*/
       border-radius: 300px;
       margin: 0 50px;
       background-color: #ed3d3d; }
       .frutos .carta .carta1:hover {
         box-shadow: 5px 5px 20px #050505; }
     .frutos .carta .carta2 {
-      /*@extend .carta; aca podrian ir tres cartas @extend */
+      /*@extend .carta;*/
       border-radius: 300px;
       margin: 0 50px;
       background-color: #bf7bff; }
       .frutos .carta .carta2:hover {
         box-shadow: 5px 5px 20px #050505; }
     .frutos .carta .carta3 {
-      /*@extend .carta; aca podrian ir tres cartas @extend */
+      /*@extend .carta;*/
       border-radius: 300px;
       margin: 0 50px;
       background-color: #f47fc3; }

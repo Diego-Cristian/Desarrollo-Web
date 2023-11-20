@@ -1,11 +1,12 @@
 $producto2:rgb(191, 123, 255);
+$tectalin:center;
 
 footer{
     display: flex;
     flex-direction:row;
     justify-content:space-evenly;
     .redes{
-        text-align: center;
+        text-align: $tectalin;
         background-color: $producto2;
         width: 100%;
         height: 100px;

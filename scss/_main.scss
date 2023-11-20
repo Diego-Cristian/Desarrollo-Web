@@ -7,70 +7,77 @@ $producto3:rgb(244, 127, 195);
 $fondoboton:rgb(220, 187, 250);
 $letraboton:rgb(23, 133, 32);
 $bordedelborde:rgb(5, 5, 5);
+$fontsiz: 3.5;
+$tectalin:center;
+
+@mixin cartas{
+    border-radius: 300px;
+    margin: 0 50px;
+}
+@mixin flex{
+    display: flex;
+}
 
 main{
-    background-color: $fondo1;/*$fondo*/
+    background-color: $fondo1;
     h1{
-        font-size: 3.5;        
+        font-size:$fontsiz;        
     }    
     h2{
-        font-size: 3.5;
+        font-size:$fontsiz;
     }    
     h3{
         font-size: 2rem;
     }    
     p{
         font-size: 1.40rem;
-        text-align: center;    
+        text-align: $tectalin;    
         height: 35px 25px ;        
     }
     .portada1{                                                        /*html inicio*/
         background-color: $fondo2;
         margin-top: 0 10px;
-        text-align: center;
-        justify-content: center;        
+        text-align: $tectalin;
+        justify-content: $tectalin;        
         }                
     }
-    .santaana{
+    .santaana{                /*transform de tutulo*/
         background-color: $fondo3;   
         font-family: 'Tilt Prism', sans-serif;        
         &:hover{
-            transform: scale(2,2);  /*transform de tutulo*/
+            transform: scale(2,2);  
         }
     }
     .frutos{  
         justify-content:space-around;        
-        display: flex;
-        justify-content: center;
-        text-align: center;
+        @include flex ;
+        justify-content: $tectalin;
+        text-align: $tectalin;
         .carta{
             margin: 120px 50px;
             margin-top: 70px;
-            display: flex;
-            justify-content: center;
-            text-align: center;
+            @include flex ;
+            justify-content: $tectalin;
+            text-align: $tectalin;
             .carta1{
-                /*@extend .carta; aca podrian ir tres cartas @extend */
-                border-radius: 300px;
-                margin: 0 50px;
+                /*@extend .carta;*/
+                @include cartas;
                 background-color: $producto1;
                 &:hover{
                     box-shadow: 5px 5px 20px $bordedelborde;
                 }                
             }
             .carta2{
-                /*@extend .carta; aca podrian ir tres cartas @extend */
-                border-radius: 300px;
-                margin: 0 50px;
+                /*@extend .carta;*/
+                @include cartas;
                 background-color: $producto2;
                 &:hover{
                     box-shadow: 5px 5px 20px $bordedelborde;
                 }
             }
             .carta3{
-                /*@extend .carta; aca podrian ir tres cartas @extend */
-                border-radius: 300px;
-                margin: 0 50px;
+                /*@extend .carta;*/
+                @include cartas;
                 background-color: $producto3;
                 &:hover{
                     box-shadow: 5px 5px 20px $bordedelborde;
@@ -95,15 +102,15 @@ main{
     }
     .certificaciones{
         margin: 120px 50px;
-        text-align: center;
+        text-align: $tectalin;
         .logos{
-            text-align: center;
-            display: flex;    
-            justify-content:space-around;
+            text-align: $tectalin;
+            @include flex;
+            justify-content: space-around;
         }    
     }
     .mensaje{    
-        text-align: center;
+        text-align: $tectalin;
         display: block;            
         .envianos{
             padding-top: 50px;
@@ -112,37 +119,37 @@ main{
     }    
     .nosotros{                                          /*html establecimientos*/
         background-color: $fondo2;
-        text-align: center;
+        text-align: $tectalin;
         padding-top: 25px;        
     } 
     .historia{
-        display: flex;
+        @include flex;
         font-size: 1rem;
         font-weight: bold;    
-        text-align: center;    
-        justify-content: center;
+        text-align: $tectalin;    
+        justify-content:$tectalin;
         margin: 100px;
     }
     .misiones{
         font-size: 1rem;
         font-weight: bold;    
-        display: flex;    
+        @include flex;  
         margin: 100px;
-        text-align: center;    
-        justify-content: center;        
+        text-align: $tectalin;    
+        justify-content: $tectalin;        
     }
     .oficina{
         text-align: center;
     }
     .establecimientos{                         /*html establecimientos*/
-        text-align: center;
+        text-align: $tectalin;
         background-color: $fondo2;
-        align-items: center;
+        align-items: $tectalin;
         padding-top: 25px;
     }    
     .productos{                                     /* html productos*/
-        justify-content: center;        
-        text-align: center;
+        justify-content: $tectalin;        
+        text-align: $tectalin;
         background-color: $fondo2;
         gap: 20px;
         padding-top: 25px;        
@@ -150,11 +157,11 @@ main{
     .congelados{
         margin: 20px 50px;    
         font-weight: bold;
-        text-align: center;
+        text-align: $tectalin;
     }
     .estilopropio{
         margin: 50px 50px;        
-        text-align: center;
+        text-align: $tectalin;
         justify-content: center;
         .estilo1{
             margin: 0 auto;
@@ -171,20 +178,20 @@ main{
         }
     }
     .contac{                                 /*aca html contactos*/
-        text-align: center;
+        text-align: $tectalin;
         background-color: $fondo2;
         margin: 0 auto;        
     }
     .formulario{        
-        justify-content: center;
-        display: flex;        
+        justify-content: $tectalin;
+        @include flex;  
         margin-top: 20px;
         .form{            
             width: 320px;            
             margin: 60px ;
             border-radius: 10px;
             background-color: $producto2;                                   
-            text-align: center;
+            text-align: $tectalin;
             font-size: 1.1rem;
             font-weight: bold;            
         }
