@@ -9,3 +9,11 @@ $letraboton:rgb(23, 133, 32);
 $bordedelborde:rgb(5, 5, 5);
 $fontsiz: 3.5;
 $tectalin:center;
+
+@mixin cartas{
+    border-radius: 300px;
+    margin: 0 50px;
+}
+@mixin flex{
+    display: flex;
+}
