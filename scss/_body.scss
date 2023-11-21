@@ -1,5 +1,58 @@
+$fondo1:rgb(255, 215, 158);
+$letraboton:rgb(23, 133, 32);
+$producto1:rgb(237, 61, 61);
+
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    .error{
+        background-color: $letraboton;
+    }
+    .mainbox {
+        background-color: $fondo1;
+        margin: auto;
+        height: 800px;
+        width: 800px;
+        position: relative;
+        .err {
+            color: $producto1;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 15rem;
+            position:absolute;
+            left: 20%;
+            top: 8%;
+        }
+        .far {
+            position: absolute;
+            font-size: 12rem;
+            left: 42%;
+            top: 15%;
+            color: $producto1;
+        }
+        .err2 {
+            color: $producto1;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 15rem;
+            position:absolute;
+            left: 68%;
+            top: 8%;
+        }
+        .msg {
+            text-align: center;
+            font-family: 'Nunito Sans', sans-serif;
+            font-size: 1.6rem;
+            position:absolute;
+            left: 16%;
+            top: 45%;
+            width: 75%;
+        }
+        a {
+            text-decoration: none;
+            color: $producto1;
+            &:hover {
+                text-decoration: underline;
+            }
+        }
+    }
 }
