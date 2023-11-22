@@ -244,12 +244,20 @@ button {
 @media screen and (max-width: 768px) {
   .formulario {
     flex-direction: column;
-    text-align: center; }
-  body {
-    background-color: #050505; }
-  .carta {
-    flex-direction: column; } }
+    text-align: center; } }
 
-@media screen and (max-width: 320px) {
-  .formulario {
-    flex-direction: column; } }
+@media screen and (max-width: 1200px) {
+  .carta {
+    flex-direction: column; }
+  .carta1 {
+    box-shadow: 5px 5px 20px #050505; }
+  .carta2 {
+    box-shadow: 5px 5px 20px #050505; }
+  .carta3 {
+    box-shadow: 5px 5px 20px #050505; }
+  button {
+    box-shadow: 5px 5px 20px #050505; }
+  a:hover {
+    background-color: #050505; }
+  .miestilo a:hover {
+    background-color: #050505; } }

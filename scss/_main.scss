@@ -1,23 +1,4 @@
-$fondo1:rgb(255, 215, 158);
-$fondo2:rgb(176, 255, 183);
-$fondo3:rgb(228, 190, 190);
-$producto1:rgb(237, 61, 61);
-$producto2:rgb(191, 123, 255);
-$producto3:rgb(244, 127, 195);
-$fondoboton:rgb(220, 187, 250);
-$letraboton:rgb(23, 133, 32);
-$bordedelborde:rgb(5, 5, 5);
-$fontsiz: 3.5;
-$tectalin:center;
-
-@mixin cartas{
-    border-radius: 300px;
-    margin: 0 50px;
-}
-@mixin flex{
-    display: flex;
-}
-
+@import "variables";
 main{
     background-color: $fondo1;
     h1{
@@ -83,8 +64,7 @@ main{
                     box-shadow: 5px 5px 20px $bordedelborde;
                 }
             }    
-        }        
-            
+        }            
     }
     button{
         margin: 50px;

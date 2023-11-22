@@ -1,18 +1,30 @@
-$bordedelborde:rgb(5, 5, 5);
 @media screen and (max-width: 768px){
     .formulario{
         flex-direction: column;
-        text-align: center;        
-    }    
-    body{
-        background-color: $bordedelborde;
+        text-align: center;
     }
-    .carta{        
-        flex-direction: column;
-    }        
 }
-@media screen and (max-width: 320px){
-    .formulario{
-        flex-direction: column;
+@media screen and (max-width:1200px){    
+    .carta{        
+        flex-direction: column;        
     }
+    .carta1{
+        box-shadow: 5px 5px 20px $bordedelborde;
+    }
+    .carta2{
+        box-shadow: 5px 5px 20px $bordedelborde;
+    }        
+    .carta3{
+        box-shadow: 5px 5px 20px $bordedelborde;
+    }
+    button{
+        box-shadow: 5px 5px 20px $bordedelborde;
+        
+    }
+    a:hover{
+        background-color: $bordedelborde
+    }
+    .miestilo a:hover{
+        background-color:$bordedelborde;
+    }    
 }
