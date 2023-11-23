@@ -8,7 +8,7 @@
   * .error {
     background-color: #178520; }
   * .mainbox {
-    background-color: #ffd79e;
+    background-color: center;
     margin: auto;
     height: 800px;
     width: 800px;
@@ -93,6 +93,7 @@ main {
     justify-content: center; }
 
 .santaana {
+  padding-top: 5px 5px;
   /*transform de tutulo*/
   background-color: #e4bebe;
   font-family: 'Tilt Prism', sans-serif; }
@@ -183,14 +184,23 @@ button {
   justify-content: center; }
 
 .oficina {
-  text-align: center; }
+  text-align: center;
+  margin-top: 100px; }
 
 .establecimientos {
   /*html establecimientos*/
   text-align: center;
   background-color: #b0ffb7;
   align-items: center;
-  padding-top: 25px; }
+  padding-top: 25px;
+  margin: 0 auto; }
+
+.miestilo2 {
+  padding-top: 120px; }
+
+.video {
+  text-align: center;
+  margin-top: 60px; }
 
 .productos {
   /* html producto*/
@@ -201,22 +211,25 @@ button {
   padding-top: 25px; }
 
 .congelados {
-  margin: 20px 50px;
+  margin: 30px;
   font-weight: bold;
   text-align: center; }
 
 .estilopropio {
-  margin: 50px 50px;
+  padding-top: 100px;
+  margin: 0 auto;
   text-align: center;
   justify-content: center; }
   .estilopropio .estilo1 {
     margin: 0 auto;
-    border-radius: 20px;
+    border-radius: 50px;
     background-color: #ed3d3d; }
   .estilopropio .estilo2 {
+    border-radius: 50px;
     background-color: #bf7bff;
     margin: 0 auto; }
   .estilopropio .estilo3 {
+    border-radius: 50px;
     margin: 0 auto;
     background-color: #f47fc3; }
 
@@ -224,12 +237,13 @@ button {
   /*aca html contactos*/
   text-align: center;
   background-color: #b0ffb7;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-top: 25px; }
 
 .formulario {
   justify-content: center;
   display: flex;
-  margin-top: 20px; }
+  margin-top: 120px; }
   .formulario .form {
     width: 320px;
     margin: 60px;
