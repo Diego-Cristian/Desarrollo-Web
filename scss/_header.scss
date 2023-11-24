@@ -2,14 +2,18 @@ header{
     .miestilo{        
         background-color: $producto2; 
         list-style: none;    
-        padding: 10px;
+        padding: 20px;
         font-family: 'Montserrat', sans-serif;
         a{
             text-decoration: none;
-            padding: 0.1rem;
+            border-radius: 15px;
+            padding: 0.3rem;
             &:hover{
                 background-color:$bordedelborde;    
             }
         }        
-    } 
+    }
+    .miestilo3{
+        font-size: 1.0rem;
+    }
 } 

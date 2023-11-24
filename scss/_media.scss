@@ -2,28 +2,35 @@
     .formulario{
         flex-direction: column;
         text-align: $tectalin;
+    }
+    .video1{
+        width: 100%;
     }    
 }
-@media screen and (max-width:1200px){    
+@media screen and (max-width:1200px){
     .carta{        
-        flex-direction: column;        
+        flex-direction: column;
+        height: 1400px;
+        margin: 30px;                        
     }
     .carta1{
         box-shadow: 5px 5px 20px $bordedelborde;
+        margin: 50px;
     }
     .carta2{
         box-shadow: 5px 5px 20px $bordedelborde;
+        margin: 50px;        
     }        
     .carta3{
         box-shadow: 5px 5px 20px $bordedelborde;
+        margin: 50px;        
     }
     button{
         box-shadow: 5px 5px 20px $bordedelborde;
-        
-    }
-    a:hover{
-        background-color: $bordedelborde
-    }
+        a:hover{
+            background-color: $bordedelborde
+        }        
+    }    
     .miestilo a:hover{
         background-color:$bordedelborde;
     }    

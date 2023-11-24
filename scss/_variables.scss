@@ -11,8 +11,7 @@ $fontsiz: 3.5;
 $tectalin:center;
 
 @mixin cartas{
-    border-radius: 300px;
-    margin: 0 50px;
+    border-radius: 300px;    
 }
 @mixin flex{
     display: flex;

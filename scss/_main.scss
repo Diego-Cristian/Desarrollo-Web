@@ -29,20 +29,19 @@ main{
             transform: scale(2,2);  
         }
     }
-    .frutos{  
-        justify-content:space-around;        
-        @include flex ;
+    .frutos{                
+        @include flex;
         justify-content: $tectalin;
         text-align: $tectalin;
         .carta{
-            margin: 120px 50px;
-            margin-top: 70px;
+            margin: 100px 70px;            
             @include flex ;
             justify-content: $tectalin;
             text-align: $tectalin;
             .carta1{
                 /*@extend .carta;*/
                 @include cartas;
+                margin: 50px;
                 background-color: $producto1;
                 &:hover{
                     box-shadow: 5px 5px 20px $bordedelborde;
@@ -51,6 +50,7 @@ main{
             .carta2{
                 /*@extend .carta;*/
                 @include cartas;
+                margin: 50px;
                 background-color: $producto2;
                 &:hover{
                     box-shadow: 5px 5px 20px $bordedelborde;
@@ -59,6 +59,7 @@ main{
             .carta3{
                 /*@extend .carta;*/
                 @include cartas;
+                margin: 50px;
                 background-color: $producto3;
                 &:hover{
                     box-shadow: 5px 5px 20px $bordedelborde;
@@ -67,10 +68,10 @@ main{
         }            
     }
     button{
-        margin: 50px;
+        margin: 30px;
         font-size: 2rem;
         font-weight: bold;
-        padding: 2px 1.30px ;
+        padding: 1px 1.30px ;
         border-radius: 30px ;
         border: 6px solid $producto1;
         box-shadow: 2px 2px 10px 2px $bordedelborde;
@@ -132,7 +133,7 @@ main{
     .miestilo2{
         padding-top: 120px;        
     }
-    .video{
+    .video{        
         text-align: $tectalin;
         margin-top: 60px;
     }    
