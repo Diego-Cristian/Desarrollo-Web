@@ -10,21 +10,21 @@
 
 ###Caracteristicas:
 
--VIDUAL STUDIO CODE
+-Visual Studio Code
 
 -HTML, CSS
 
--GIT, GITHUB
+-Git, GitHub
 
--SCSS, SASS
+-Scss, Sass
 
--ANIMACIONES
+-Animaciones
 
--SEO, BUENASPRACTICAS
+-Seo, Buenas practicas
 
--ERROR404
+-Error404
 
 
-Diego Cristian Vidal
+-ATTE: Diego Cristian Vidal
 
 #######FIN
