@@ -8,7 +8,8 @@
 
 -Tutores: Pedro Peñaranda ,Eduardo Arévalo
 
-###Caracteristicas
+###Caracteristicas:
+
 -VIDUAL STUDIO CODE
 -HTML, CSS
 -GIT, GITHUB
