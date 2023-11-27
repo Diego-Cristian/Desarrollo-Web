@@ -11,12 +11,19 @@
 ###Caracteristicas:
 
 -VIDUAL STUDIO CODE
+
 -HTML, CSS
+
 -GIT, GITHUB
+
 -SCSS, SASS
+
 -ANIMACIONES
+
 -SEO, BUENASPRACTICAS
+
 -ERROR404
+
 
 Diego Cristian Vidal
 
