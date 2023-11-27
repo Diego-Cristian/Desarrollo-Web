@@ -12,7 +12,7 @@
 
 -Visual Studio Code
 
--Html, CSS
+-Html, Css
 
 -Git, GitHub
 
