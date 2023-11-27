@@ -12,7 +12,7 @@
 
 -Visual Studio Code
 
--HTML, CSS
+-Html, CSS
 
 -Git, GitHub
 
@@ -25,6 +25,6 @@
 -Error404
 
 
--ATTE: Diego Cristian Vidal
+-Atte: Diego Cristian Vidal
 
 #######FIN
