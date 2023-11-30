@@ -282,4 +282,10 @@ button {
     button a:hover {
       background-color: #050505; }
   .miestilo a:hover {
-    background-color: #050505; } }
+    background-color: #050505; }
+  .historia {
+    margin: 25px;
+    padding: 35px; }
+  .empresa {
+    margin: 25px;
+    padding: 11px; } }
