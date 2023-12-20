@@ -20,11 +20,11 @@
 
 -Animaciones
 
--Seo, Buenas practicas
+-Seo
 
 -Error404
 
 
 -Atte: Diego Cristian Vidal
 
-#######FIN
+###FIN
