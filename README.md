@@ -27,8 +27,5 @@
 
 -Atte: Diego Cristian Vidal
 
-<<<<<<< HEAD
 ###FIN
-=======
-#####FIN
->>>>>>> 3784ba50fc85b99e9b3825d8e2fa87e4e46f83ae
+
